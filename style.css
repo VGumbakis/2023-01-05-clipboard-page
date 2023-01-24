@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    color: hsl(201, 11%, 66%);
+}
+
+h1,
+h2,
+h3{
+    color: hsl(210, 10%, 33%);
+}
+
+main,
+footer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+header {
+    background-image: url("bg-header-desktop.png");
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-text,
+.center-features{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.download {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac {
+    background-color:  hsl(233, 100%, 69%);
+}
+
+.ios:hover{
+    box-shadow: 10px 5px 5px 5px;
+}
+
+.mac:hover{
+    box-shadow: 10px 5px 5px 5px;
+}
+
+.computer-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.computer {
+    width: 50%;
+}
+
+.features {
+    width: 50%;
+}
+
+.feature-block {
+    margin-bottom: 30px;
+}
+
+.img-devices{
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+}
+
+.inline-features-block{
+    display: flex;
+    justify-content: center;
+}
+
+.inline-feature{
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.ifimg{
+    height: 40px;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.company{
+    object-fit:none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flogo{
+    transform: scale(0.5);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.third-menu{
+    align-self: flex-start;
+}
+
+.flink{
+    color: hsl(210, 10%, 33%);
+    padding: 8px 0;
+}
+
+.flink:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social-link:hover{
+    fill: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
